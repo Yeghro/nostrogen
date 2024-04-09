@@ -113,16 +113,16 @@ input[type="text"]:focus {
 .form-check-input[type="radio"]:checked::before {
   content: ''; /* Empty content */
   background-color: #52003c; /* Color of the dot */
-  position: absolute; /* Position relative to the radio button */
+  position: absolute; 
   outline: none;
 
 }
 .form-check-input:disabled + .form-check-label {
-  color: #52003c; /* Color for disabled labels */
+  color: #52003c; 
 }
 
 .form-check-label:hover {
-  color: rgb(255, 201, 100); /* Color on hover */
+  color: rgb(255, 201, 100); 
 }
 .form-check-input{
   background-color: #52003c;
@@ -134,11 +134,11 @@ input[type="text"]:focus {
 }
 
 input[type="text"]:-webkit-autofill {
-  -webkit-box-shadow: 0 0 0px 1000px purple inset; /* Force purple background color */
-  -webkit-text-fill-color: orange !important; /* Force white text color */
+  -webkit-box-shadow: 0 0 0px 1000px purple inset; 
+  -webkit-text-fill-color: orange !important; 
 }
 
 .table thead th {
-  background-color: black; /* Background color for table header */
+  background-color: black; 
   color: orange;
 }
